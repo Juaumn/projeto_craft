@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: warcraft;
+    src: url(font/LifeCraft_Font.ttf) format('truetype');
+}
+
+:root {
+    /* --nome : variavel*/
+    --cor1: #231CF0;
+    --cor2: #0500A3;
+    --cor3: #A38805;
+    --cor4: #FFDB29;
+    --cor5: #F0CA0E;
+    --cor6: rgb(173, 168, 168);
+    --font1: warcraft
+}
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(255, 166, 0, 0.808);
+}
+
+header {
+    min-height: 200px;
+    background-image: linear-gradient(to bottom, #EB4A14, #856641);
+    text-decoration: none;
+}
+
+header h1 {
+    font-family: var(--font1, arial, sans-serif);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 6em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: var(--cor5);
+    text-shadow: 2px 5px 10px black;
+    font-size-adjust: initial;
+}
+
+header p {
+    font-family: var(--font1);
+    font-size: 2em;
+    text-align: center;
+    padding-bottom:  20px;
+    color: var(--cor5);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.596);
+}
+
+nav {
+    background-color: #856641;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.664);
+}
+
+nav a {
+    text-align: left;
+    color: #ebbc22;
+    font-family: var(--font1, arial, sans-serif);
+    padding: 10px;
+    margin: 0px 7px 0px 7px;
+}
+
+nav a:hover {
+    background-color: var(--cor4);
+    color: rgb(136, 135, 135);
+}
+
+main {
+    padding: 10px 10px 50px 10px;
+    background-color: white;
+    min-width: 250px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.664);
+    border-radius: 0px 0px 7px 7px;
+    margin-bottom: 20px;
+}
+
+main h1 {
+    font-size: 2em;
+    font-family: var(--font1, arial, sans-serif);
+    padding: 5px;
+    margin: 20px 0px 20px 0px;
+    font-weight: bolder;
+    text-align: center;
+    color: #FFDB29;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.692);
+    background-image: linear-gradient(to right, transparent, #B87323, transparent);
+}
+
+main h2 {
+    font-size: 2em;
+    font-family: var(--font1, arial, sans-serif);
+    padding: 5px;
+    margin: 20px 0px 20px 0px;
+    font-weight: bolder;
+    text-align: center;
+    color: #FFDB29;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.692);
+    background-image: linear-gradient(to right, transparent, #B87323, transparent);
+}
+main h3 {
+    font-size: 1.8em;
+    font-family: var(--font1, arial, sans-serif);
+    padding: 5px;
+    margin: 20px 0px 20px 0px;
+    font-weight: bolder;
+    text-align: center;
+    color: #FFDB29;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.692);
+    background-image: linear-gradient(to right, transparent, #B87323, transparent);
+}
+
+main article p {
+    padding: 0px 22px 0px 22px;
+    font-size: 1.05em;
+    text-align: justify;
+    margin: 20px 10px 10px 10px;
+    text-indent: 20px;
+    line-height: 27PX;
+
+}
+
+aside {
+
+    font-size: 1.05em;
+    text-align: justify;
+    margin: 20px 10px 10px 10px;
+    text-indent: 20px;
+    line-height: 1.2em;
+}
+
+aside li {
+    padding-bottom: 10px;
+}
+
+aside ul {
+    list-style-position: inside;
+    list-style-type: '\1F7E2';
+    text-indent: 10PX;
+    padding: 10px 22px 0px 22px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.inframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.video {
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+
+
+.linkexterno {
+    text-decoration: underline;
+}
+
+.linkexterno::after {
+    content: '\2714';
+}
+
+.topo {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+
+abbr {
+    text-decoration: underline;
+    font-weight: bolder;
+}
